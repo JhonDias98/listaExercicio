@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // function palindromo(nome){
+        //     for(var i=0; i< nome.length;i++){
+        //         if(nome[i]!= nome[nome.length - i - 1]){
+        //             console.log("Não é Palíndrome")
+        //         }
+        //         else{
+        //             console.log("Não é Palíndrome")
+        //         }
+        //     }
+        // }
+        var n=prompt("Dígite a palavra:")
+        var inverte = n.split('').reverse().join('');
+        if(n == inverte){
+            alert(`A palavra foi: ${n} \nEla invertida é: ${inverte} \nEla é Palíndrome`)
+        }
+        else{
+            alert(`A palavra foi: ${n} \nEla invertida é: ${inverte} \nEla não é Palíndrome`)
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var palavra = prompt("Informe a informação")
+        var teste = palavra.split(" ")
+        var maior = [0]
+
+        for(var i = 0; i < teste.length; i++){
+            if(teste[i].length > maior.length){
+                maior = teste[i]
+            }
+        } 
+        alert(maior)
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var num = parseInt(prompt("Informe o número: "))
+        var cont = 0
+        for(var i = 1; i <= num; i++){
+            if(num % i == 0){
+                cont ++
+            }
+        }
+        if(cont == 2){
+            document.write(`O número ${num} é primo!`)
+        }
+        else{
+            document.write(`O número ${num} não é primo!`)
+        }
+
+    </script>
+</body>
+</html>

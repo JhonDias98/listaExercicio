@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var palavra = prompt("Digite aqui: ")
+        var vogais = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"]
+        var cont = 0
+
+        for(var i = 0; i <= palavra.length; i++){
+            if(vogais.indexOf(palavra[i])!= -1){
+                cont++
+            }
+        }
+        document.write(`Quantidade de vogais: ${cont}`)
+    </script>
+</body>
+</html>
